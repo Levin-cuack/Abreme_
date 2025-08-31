@@ -11,3 +11,14 @@ for (let i = 0; i < 40; i++) {
 
     firefliesContainer.appendChild(firefly);
 }
+// Boton para activar la musica
+const music =
+    document.getElementById("bg-music");
+    const playBtn =
+    document.getElementById("play-btn");
+    playBtn.addEventListener("click" , () => {
+        music.play();
+        play.Btn.style.display =
+    "none"; //ocultar el boton despues de activar
+    });
+
